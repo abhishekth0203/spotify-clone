@@ -33,6 +33,7 @@ body{
     background-color: black;
     color: white;
     height: 80px;
+    /* height: 10vh; */
     
      display:block;
      position: relative;
@@ -63,6 +64,10 @@ body{
      font-weight: bold;
 
 }
+.ul li:hover{
+    color: rgb(69, 190, 69);
+}
+
 li{
   
     display: inline-block;
@@ -71,5 +76,142 @@ li{
   
 }
 .header-block {
-    background-color: red;
+    background-color: rgb(171, 20, 201);
 }
+
+
+.header-block article {
+    background-image: url("https://www.scdn.co/i/free/bubbles-dktp.svg");
+    
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0);
+background-attachment: scroll, scroll;
+/* background-image: url("https://www.scdn.co/i/free/bubbles-dktp.svg"), linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)); */
+background-origin: padding-box, padding-box;
+background-clip: border-box, border-box;
+background-size: 100% 1068px;
+background-position: center -138px;
+  }
+
+  .phone {
+    /* padding: 20px 30px 0px 10px ; */
+    position: absolute;
+    height: 40vw;
+    margin: 96px 807px 0px 107px ;
+    
+}
+
+.pimg img{
+    position: absolute;
+    
+    height: 31vw;
+    margin:150px 0px 0px -485px ;
+    /* z-index: 1; */
+  }
+.content1 {
+   
+    font-weight:bold;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    margin: 198px 0px 0px 446px;
+    
+}
+.button{
+   font-size: 15px;
+   color: black;
+   background-color: rgb(255, 255, 255);
+   padding: 1.17vw;
+   display: inline-block;
+   border-radius: 30px;
+   letter-spacing: -0.01em;
+   
+}
+.button:hover{
+    transform: scale(1.05);
+}
+
+
+.header-block2 {
+    width: 1450px;
+    height: 595px;
+    position: absolute;
+    background-color: white;
+}
+.why{
+    font-size: 40px;
+    position: absolute;
+    margin: 69px 0px 0px 603px;
+    font-weight:bold;
+    
+}
+.play-sec{
+    position: absolute;
+    margin: 200px 142px 0px 140px;
+    display: flex;
+    text-align: center;
+    height: 307px;
+   
+}
+
+/* .fav1{
+    width: 285px;
+    height: 309px;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+.favorites{
+    
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f430678067184805befd38aa0f57");
+    background-size: 142px;
+    height: 142px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.playlist{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f430a6f822749d5c25c32ee31d66");
+    
+    height: 142px;
+    background-size: 142px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.make{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f430eb43023b5332389f5094530d");
+    
+    height: 142px;
+    background-size: 142px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.save{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f4309430062bc28461dc8fbde6bc");
+    height: 142px;
+    background-size: 142px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fav-content{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    
+}
+div p{
+    /* margin-top: 5px; */
+    line-height: 2;
+    font-size: 16px;
+    
+    letter-spacing: 0.5px;
+}
+
+
+
