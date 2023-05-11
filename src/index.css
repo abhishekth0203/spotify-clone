@@ -68,7 +68,7 @@ body{
     color: rgb(69, 190, 69);
 }
 
-li{
+.ul li{
   
     display: inline-block;
     padding: 15px;
@@ -140,8 +140,10 @@ background-position: center -138px;
 .header-block2 {
     width: 1450px;
     height: 595px;
-    position: absolute;
+    /* position: absolute; */
     background-color: white;
+    /* background-color: red; */
+    
 }
 .why{
     font-size: 40px;
@@ -212,6 +214,97 @@ div p{
     
     letter-spacing: 0.5px;
 }
+.header3_block{
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    height: 495px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 209px;
+}
+.header4_block {
+    height: 586px;
+    background-color: white;
+}
+.header4_block h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 76px;  
+}
 
+.question2_ans{
+    /* display: flex; */
+    /* gap: 20px; */
+    padding-left: 20px;
+}
+.create_playlist{
+    /* position: absolute; */
+    /* padding: 20px 0px 0px 30px; */
+    /* text-decoration: underline; */
+    list-style: none;
+    margin: 0px 0px 0px 157px;  
+}
+summary{ 
+    list-style: none; 
+   
+}
+
+summary:hover{
+    background-color: rgba(211, 211, 211, 0.511);
+    text-decoration: underline;
+    width:1140px ;
+}
+
+.create_playlist div {
+    border-bottom:0.01px solid rgba(128, 128, 128, 0.243);
+    /* border-top: 1px solid gray; */
+    height: 77px;
+    width: 1140px;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.create_playlist span{
+    color: rgb(69, 190, 69);
+    font-weight: bold;
+}
+.create_playlist li li,p{
+    /* padding-left: 20px; */
+    margin-left: 24px;
+}
+
+.header5_block article{
+    height: 450px;
+    /* background-color: red; */
+    background-image: url("https://www.scdn.co/i/free/lets-play.svg"), linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166));
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    background-color: rgb(108, 14, 224);
+    background-size: 100% 1114px;
+    background-position: left -10px bottom -160px;
+    background-repeat: no-repeat;
+    
+}
+
+.content h1{
+    font-size: 74px;
+    color: white;
+    position: absolute;
+    margin: 167px 0px 0px 418px;
+}
+.content p{
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: white;
+    margin: 267px 0px 0px 623px;
+}
+
+.content p:hover{
+     transform: scale(1.05);
+}
 
 
